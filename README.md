@@ -27,11 +27,18 @@ Unique IDs for customer records in each system are matched using common informat
 This approach analyzes a variety of customer data points to estimate the statistical likelihood that two identities are the same customer. While statistical connections aren’t as definitive as authenticated IDs, they can be extremely helpful when first-party data is limited.
 
 ## About  Data
- 
-Data  overview
+
 # Investor Data
+![image](https://user-images.githubusercontent.com/63542990/121997818-96145400-cdc8-11eb-88d0-f3ec00c3ebe5.png)
+
+
 # Distributer Data
+![image](https://user-images.githubusercontent.com/63542990/121998266-3d918680-cdc9-11eb-945d-6d3471c60658.png)
+
 # Channel Data 
+![image](https://user-images.githubusercontent.com/63542990/121998700-e93ad680-cdc9-11eb-9776-2e694d25f3fe.png)
+
+
 1.orm data
 2.web data
 3.android data
@@ -39,7 +46,15 @@ Data  overview
 
 we have to merge invseter data or distributer data to create a master data and then map to channel data like orm,web ,android, ios
 
+# Unification Work Flow
+![image](https://user-images.githubusercontent.com/63542990/121998969-50588b00-cdca-11eb-992b-c5bd0eed2747.png)
 
+1).Read all the data of all six file.
+2). Data cleaning.
+3). preprocessing and validation.
+4). clustering using( k means cluster).
+5). then assign a probality value based on heigh medium or low feature.
+6). final output will be consider as four unification file for four diffrent channel.
 
 
 
